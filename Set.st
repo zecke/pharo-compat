@@ -1,7 +1,8 @@
 Set extend [
     union: aSet [
         "This is needed for Phexample and IdentitySet"
-        <copyright: #MIT>
+        "MIT licensed"
+        <category: '*PharoCompat'>
         ^self + aSet
     ]
 ]

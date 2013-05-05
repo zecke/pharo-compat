@@ -1,4 +1,5 @@
 TestCase subclass: TestSet [
+    <category: 'PharoCompat-Tests'>
 
     testUnion [
         | set1 set2 res |
