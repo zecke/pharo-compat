@@ -1,0 +1,6 @@
+This contains various extensions and classes to ease porting code from
+Pharo to GST. These routines might or might not be migrated to the kernel
+of GNU Smalltalk.
+
+Each selector/class needs to contain information which package needed it
+and the license of the implementation.

@@ -1,0 +1,11 @@
+<package>
+    <name>PharoCompat</name>
+    <namespace>Pharo</namespace>
+
+    <filein>String.st</filein>
+
+    <test>
+        <filein>TestString.st</filein>
+        <sunit>Pharo.TestString</sunit>
+    </test>
+</package>
