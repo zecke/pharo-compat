@@ -2,10 +2,13 @@
     <name>PharoCompat</name>
     <namespace>Pharo</namespace>
 
+    <filein>Set.st</filein>
     <filein>String.st</filein>
 
     <test>
+        <filein>TestSet.st</filein>
         <filein>TestString.st</filein>
+        <sunit>Pharo.TestSet</sunit>
         <sunit>Pharo.TestString</sunit>
     </test>
 </package>
