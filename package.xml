@@ -2,7 +2,10 @@
     <name>PharoCompat</name>
     <namespace>Pharo</namespace>
 
+    <filein>BlockClosure.st</filein>
     <filein>CompiledMethod.st</filein>
+    <filein>Number.st</filein>
+    <filein>Object.st</filein>
     <filein>Pragma.st</filein>
     <filein>Set.st</filein>
     <filein>Symbol.st</filein>
