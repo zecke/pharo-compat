@@ -2,12 +2,17 @@
     <name>PharoCompat</name>
     <namespace>Pharo</namespace>
 
+    <filein>CompiledMethod.st</filein>
+    <filein>Pragma.st</filein>
     <filein>Set.st</filein>
+    <filein>Symbol.st</filein>
     <filein>String.st</filein>
 
     <test>
+        <filein>TestPragma.st</filein>
         <filein>TestSet.st</filein>
         <filein>TestString.st</filein>
+        <sunit>Pharo.TestPragma</sunit>
         <sunit>Pharo.TestSet</sunit>
         <sunit>Pharo.TestString</sunit>
     </test>
