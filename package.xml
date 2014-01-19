@@ -1,6 +1,7 @@
 <package>
     <name>PharoCompat</name>
     <namespace>Pharo</namespace>
+    <prereq>Grease</prereq>
 
     <filein>BlockClosure.st</filein>
     <filein>CompiledMethod.st</filein>
