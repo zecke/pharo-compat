@@ -13,9 +13,11 @@
     <filein>String.st</filein>
 
     <test>
+        <filein>TestBlockClosure.st</filein>
         <filein>TestPragma.st</filein>
         <filein>TestSet.st</filein>
         <filein>TestString.st</filein>
+        <sunit>Pharo.TestBlockClosure</sunit>
         <sunit>Pharo.TestPragma</sunit>
         <sunit>Pharo.TestSet</sunit>
         <sunit>Pharo.TestString</sunit>
