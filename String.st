@@ -80,4 +80,9 @@ String extend [
 
         ^(self indexOf: aString matchCase: aCase startingAt: 1) isNil not
     ]
+
+    matchesRegex: aString [
+        <category: '*PharoCompat'>
+        ^self matchRegex: aString
+    ]
 ]
